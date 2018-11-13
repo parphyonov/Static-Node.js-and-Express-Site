@@ -1,56 +1,58 @@
-[
-  {
-    "id": 1,
-    "project_name": "Interactive Photo Gallery",
-    "description": "A lighbox is connected and configured to perform searches on the image gallery.",
-    "technologies": ["HTML", "CSS", "JavaScript", "jQuery Plugins"],
-    "live_link": "https://github.com/parphyonov/Interactive-Photo-Gallery",
-    "github_link": "https://parphyonov.github.io/Interactive-Photo-Gallery/",
-    "image_urls": "./static/images/project1.png"
-  }
-  {
-    "id": 2,
-    "project_name": "A Random Quote Generator",
-    "description": "A simple random quote generator.",
-    "technologies": ["HTML", "CSS", "JavaScript"],
-    "live_link": "https://parphyonov.github.io/Random-Quote-Generator/",
-    "github_link": "https://github.com/parphyonov/Random-Quote-Generator",
-    "image_urls": "./static/images/project2.png"
-  },
-  {
-    "id": 3,
-    "project_name": "List Pagination and Filtering",
-    "description": "A list of students is broken into pages containing 10 students and a search can be performed.",
-    "technologies": ["HTML", "CSS", "JavaScript"],
-    "live_link": "https://parphyonov.github.io/List-Pagination-and-Filtering/",
-    "github_link": "https://github.com/parphyonov/List-Pagination-and-Filtering",
-    "image_urls": "./static/images/project3.png"
-  },
-  {
-    "id": 4,
-    "project_name": "Interactive Form",
-    "description": "Validation form for participants of an imaginary JS conference.",
-    "technologies": ["HTML", "CSS", "JavaScript"],
-    "live_link": "https://parphyonov.github.io/Interactive-Form/",
-    "github_link": "https://github.com/parphyonov/Interactive-Form",
-    "image_urls": "./static/images/project4.png"
-  },
-  {
-    "id": 5,
-    "project_name": "Object-Oriented Programming Game Show App",
-    "description": "A browser phrase hunter game.",
-    "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"],
-    "live_link": "https://parphyonov.github.io/OOP-Game-Show-App/",
-    "github_link": "https://github.com/parphyonov/OOP-Game-Show-App",
-    "image_urls": "./static/images/project5.png"
-  },
-  {
-    "id": 6,
-    "project_name": "Public API Requests",
-    "description": "An app goes to online API that presents random users' data. Then it renders the data and searches can be performed.",
-    "technologies": ["HTML", "CSS", "JavaScript", "API Requests"],
-    "live_link": "https://parphyonov.github.io/Public-API-Requests/",
-    "github_link": "https://github.com/parphyonov/Public-API-Requests",
-    "image_urls": "./static/images/project6.png"
-  }
-]
+{
+  "projects": [
+    {
+      "id": 1,
+      "project_name": "Interactive Photo Gallery",
+      "description": "A lighbox is connected and configured to perform searches on the image gallery.",
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery Plugins"],
+      "live_link": "https://github.com/parphyonov/Interactive-Photo-Gallery",
+      "github_link": "https://parphyonov.github.io/Interactive-Photo-Gallery/",
+      "image_urls": "/static/images/project1.png"
+    },
+    {
+      "id": 2,
+      "project_name": "A Random Quote Generator",
+      "description": "A simple random quote generator.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://parphyonov.github.io/Random-Quote-Generator/",
+      "github_link": "https://github.com/parphyonov/Random-Quote-Generator",
+      "image_urls": "/static/images/project2.png"
+    },
+    {
+      "id": 3,
+      "project_name": "List Pagination and Filtering",
+      "description": "A list of students is broken into pages containing 10 students and a search can be performed.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://parphyonov.github.io/List-Pagination-and-Filtering/",
+      "github_link": "https://github.com/parphyonov/List-Pagination-and-Filtering",
+      "image_urls": "/static/images/project3.png"
+    },
+    {
+      "id": 4,
+      "project_name": "Interactive Form",
+      "description": "Validation form for participants of an imaginary JS conference.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://parphyonov.github.io/Interactive-Form/",
+      "github_link": "https://github.com/parphyonov/Interactive-Form",
+      "image_urls": "/static/images/project4.png"
+    },
+    {
+      "id": 5,
+      "project_name": "Object-Oriented Programming Game Show App",
+      "description": "A browser phrase hunter game.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"],
+      "live_link": "https://parphyonov.github.io/OOP-Game-Show-App/",
+      "github_link": "https://github.com/parphyonov/OOP-Game-Show-App",
+      "image_urls": "/static/images/project5.png"
+    },
+    {
+      "id": 6,
+      "project_name": "Public API Requests",
+      "description": "An app goes to online API that presents random users' data. Then it renders the data and searches can be performed.",
+      "technologies": ["HTML", "CSS", "JavaScript", "API Requests"],
+      "live_link": "https://parphyonov.github.io/Public-API-Requests/",
+      "github_link": "https://github.com/parphyonov/Public-API-Requests",
+      "image_urls": "/static/images/project6.png"
+    }
+  ]
+}

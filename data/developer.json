@@ -1,0 +1,36 @@
+{
+  "developer": {
+    "name": "Alexei Parphyonov",
+    "title": "Full-Stack JavaScript Developer",
+    "portrait": "/static/images/me.jpg",
+    "bio": [
+      "Was born in 1987 in Slavgorod, Altai Krai, USSR.",
+      "Graduated from school in 2004.",
+      "Graduated from the Linguistic Institute of the Altai State Pedagogic Academy in 2009 as Translator and Interpreter of English and German.",
+      "In 2009 moved to Saint Petersburg and worked as hotel concierge until 2016.",
+      "In 2014 started to be interested in programming.",
+      "In 2018 tried and continued with Treehouse Techdegree."
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "Vanilla JavaScript",
+      "jQuery Plugins",
+      "Node.js",
+      "Express",
+      "AJAX Requests",
+      "Rest API Calls",
+      "Sass",
+      "Python"
+    ],
+    "contact": {
+      "phone": "+7 (911) 035-87-88",
+      "email": "alexeiparphyonov@gmail.com",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/alexei-parphyonov-058b15158/",
+        "github": "https://github.com/parphyonov",
+        "twitter": "https://twitter.com/parphyonov"
+      }
+    }
+  }
+}

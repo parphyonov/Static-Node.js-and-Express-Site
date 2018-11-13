@@ -1,47 +1,36 @@
 extends layout.pug
 
-block content 
+block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Add your name.
-        h1 Name
+        h1= developer.name
 
-        //- Feel free personalize the title below
-        p.lead.text-light
-          | Full Stack JavaScript Developer.
+        p.lead.text-light= developer.title
 
-        //- Replace the boilerplate below with your Elevator pitch below.
-        .portfolio-bio
-          p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+        if developer.bio
+          .portfolio-bio
+            each bio_line in developer.bio
+              p= bio_line
       .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Skills
 
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
-        ul
-          li Express
-          li Other cool stuff
-          li Listing my skills
-          li Etc.
-          li Etc. 
-          li Etc.
-        h6 Contact Info
+        if developer.skills
+          h6 Skills
+          ul
+            each skill in developer.skills
+              li= skill
 
-        //- Add your own contact info
-        ul
-          li 555-555-1234
-          li email@email.com
-
-        //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
+        if developer.contact
+          h6 Contact Info
+          ul
+            li= developer.contact.phone
+            li= developer.contact.email
+          if developer.contact.links
+            a.button.expanded(href=`${developer.contact.links.linkedin}`, target="_blank") LinkedIn
+            a.button.expanded(href=`${developer.contact.links.github}`, target="_blank") GitHub
+            a.button.expanded(href=`${developer.contact.links.twitter}`, target="_blank") Twitter
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
-  
