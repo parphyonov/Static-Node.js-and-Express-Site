@@ -1,0 +1,25 @@
+{
+  "name": "static_nodejs_and_express_site",
+  "version": "1.0.0",
+  "description": "Static Node.js and Express Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parphyonov/Static-Node.js-and-Express-Site.git"
+  },
+  "keywords": [
+    "express",
+    "node.js",
+    "static",
+    "site"
+  ],
+  "author": "Alexei Parphyonov",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/parphyonov/Static-Node.js-and-Express-Site/issues"
+  },
+  "homepage": "https://github.com/parphyonov/Static-Node.js-and-Express-Site#readme"
+}
