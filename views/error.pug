@@ -7,7 +7,10 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        h1= error.message
+        if (error.code === 404)
+          h1.error << #{error.code} >>
+          img(src="https://image.flaticon.com/icons/svg/1034/1034429.svg" alt="Page not found picture" style="width: 250px; float: right;")
+          h2= error.message
 
         a.button.expanded(href="/") Visit the Main Page
         a.button.expanded(href="/about") Visit the About Page

@@ -3,6 +3,11 @@ h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
 
+h1.error {
+  color: #cf3a3a;
+  font-weight: bolder;
+}
+
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
@@ -104,7 +109,7 @@ a:hover{
 
 .portfolio-intro p{
   border-bottom: 1px solid #eaeaea;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .portfolio-index{
