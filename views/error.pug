@@ -12,5 +12,7 @@ block content
           img(src="https://image.flaticon.com/icons/svg/1034/1034429.svg" alt="Page not found picture" style="width: 250px; float: right;")
           h2= error.message
 
-        a.button.expanded(href="/") Visit the Main Page
-        a.button.expanded(href="/about") Visit the About Page
+        a.button.expanded.redirect(href="/") Visit the Main Page
+        a.button.expanded.redirect(href="/about") Visit the About Page
+
+        pre= error.stack

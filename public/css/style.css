@@ -1,11 +1,5 @@
-
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
-}
-
-h1.error {
-  color: #cf3a3a;
-  font-weight: bolder;
 }
 
   h5{
@@ -152,4 +146,34 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.grid-container.portfolio-intro h1#developer-name {
+  font-family: 'Kumar One Outline', cursive;
+}
+
+h1.error {
+  color: #cf3a3a;
+  font-weight: bolder;
+  animation: changecolor 1s infinite;
+}
+
+@keyframes changecolor {
+    0% {color: #cf3a3a;}
+    50% {color: orange;}
+    100% {color: #cf3a3a;}
+}
+
+.redirect:first-of-type {
+  animation: changetextcolor 2s infinite;
+}
+.redirect:nth-of-type(2) {
+  animation: changetextcolor 2s infinite;
+  animation-delay: 1s;
+}
+
+@keyframes changetextcolor {
+  0% {color: #6ce35b;}
+  50% {color: #fff;}
+  100% {color: #6ce35b;}
 }

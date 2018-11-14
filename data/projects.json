@@ -5,8 +5,8 @@
       "project_name": "Interactive Photo Gallery",
       "description": "A lighbox is connected and configured to perform searches on the image gallery.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery Plugins"],
-      "live_link": "https://github.com/parphyonov/Interactive-Photo-Gallery",
-      "github_link": "https://parphyonov.github.io/Interactive-Photo-Gallery/",
+      "live_link": "https://parphyonov.github.io/Interactive-Photo-Gallery/",
+      "github_link": "https://github.com/parphyonov/Interactive-Photo-Gallery",
       "image_urls": "/static/images/project1.png"
     },
     {
